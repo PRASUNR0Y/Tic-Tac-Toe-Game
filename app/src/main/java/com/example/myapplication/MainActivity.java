@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     winnerStr = "O has won";
                 }
+
                 // Update the status bar for winner announcement
                 TextView status = findViewById(R.id.status);
                 status.setText(winnerStr);
